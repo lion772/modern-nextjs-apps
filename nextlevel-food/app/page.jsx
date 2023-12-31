@@ -6,6 +6,7 @@ export default function Home() {
     <main>
         <Header />
         <Link href="/about">About Us</Link>
+        <Link href="/blogs">Blogs</Link>
     </main>
   );
 }
