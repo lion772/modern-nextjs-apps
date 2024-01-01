@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d814180-27af-4b3a-8a71-cf8302091915" name="Changes" comment="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array.">
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/community/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/header/nav-link.jsx" afterDir="false" />
+    <list default="true" id="8d814180-27af-4b3a-8a71-cf8302091915" name="Changes" comment="nextlevel food - page content - generate nav-link.jsx reusable component to avoid make all header related components into react client components, populate community page and import its css module.">
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meals-grid.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meals-grid.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/initdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/burger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/curry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/dumplings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/macncheese.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/pizza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/schnitzel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/public/images/tomato-salad.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/community/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/community/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/header/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/images/images-slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/images/images-slideshow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/jsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;page-content&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/package.json&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "page-content",
+    "last_opened_file_path": "C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/public/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -71,6 +85,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\public\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\components\header" />
       <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\components" />
@@ -101,7 +118,8 @@
       <workItem from="1704056394704" duration="4016000" />
       <workItem from="1704105126720" duration="1434000" />
       <workItem from="1704118485401" duration="4570000" />
-      <workItem from="1704123398623" duration="6952000" />
+      <workItem from="1704123398623" duration="8106000" />
+      <workItem from="1704142523897" duration="3808000" />
     </task>
     <task id="LOCAL-00001" summary="nextlevel food - set up new project">
       <option name="closed" value="true" />
@@ -151,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704126842807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nextlevel food - page content - generate nav-link.jsx reusable component to avoid make all header related components into react client components, populate community page and import its css module.">
+      <option name="closed" value="true" />
+      <created>1704133787716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704133787717</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +190,7 @@
     <MESSAGE value="nextlevel food - page content - replace img with Image nextjs component, move header related files into header folder, generate header-background.jsx and its css module to handle absolute position background." />
     <MESSAGE value="nextlevel food - page content - populate the starting page content" />
     <MESSAGE value="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array." />
+    <MESSAGE value="nextlevel food - page content - generate nav-link.jsx reusable component to avoid make all header related components into react client components, populate community page and import its css module." />
+    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - page content - generate nav-link.jsx reusable component to avoid make all header related components into react client components, populate community page and import its css module." />
   </component>
 </project>
