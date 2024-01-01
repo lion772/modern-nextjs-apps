@@ -1,8 +1,7 @@
 .header {
     display: flex;
-    gap: 3rem;
-    margin: 8rem auto;
-    width: 90%;
+    gap: 4rem;
+    margin: 4rem auto 0 8rem;
     max-width: 75rem;
 }
 
