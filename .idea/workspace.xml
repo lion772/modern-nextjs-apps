@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d814180-27af-4b3a-8a71-cf8302091915" name="Changes" comment="nextlevel food - set up - generate components/header.jsx react component, rename files in app folder, generate about page.">
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/community/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" afterDir="false" />
+    <list default="true" id="8d814180-27af-4b3a-8a71-cf8302091915" name="Changes" comment="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array.">
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/community/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/header/nav-link.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/about/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/blogs/[slug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/blogs/page.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/community/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/community/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/images/images-slideshow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/images/images-slideshow.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "lion772"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lion772&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "routing",
-    "last_opened_file_path": "C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/package.json",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;page-content&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/package.json&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -76,6 +72,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\components\header" />
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\components" />
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food" />
       <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\app" />
     </key>
   </component>
@@ -101,6 +100,8 @@
       <updated>1704056393656</updated>
       <workItem from="1704056394704" duration="4016000" />
       <workItem from="1704105126720" duration="1434000" />
+      <workItem from="1704118485401" duration="4570000" />
+      <workItem from="1704123398623" duration="6952000" />
     </task>
     <task id="LOCAL-00001" summary="nextlevel food - set up new project">
       <option name="closed" value="true" />
@@ -118,7 +119,39 @@
       <option name="project" value="LOCAL" />
       <updated>1704060210183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nextlevel food - page content - add assets, header and navbar, as well as header.module.css">
+      <option name="closed" value="true" />
+      <created>1704120044265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704120044266</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nextlevel food - page content - replace img with Image nextjs component, move header related files into header folder, generate header-background.jsx and its css module to handle absolute position background.">
+      <option name="closed" value="true" />
+      <created>1704121759195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704121759195</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nextlevel food - page content - populate the starting page content">
+      <option name="closed" value="true" />
+      <created>1704123204346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704123204346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array.">
+      <option name="closed" value="true" />
+      <created>1704126842807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704126842807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +160,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nextlevel food - set up new project" />
     <MESSAGE value="nextlevel food - set up - generate components/header.jsx react component, rename files in app folder, generate about page." />
-    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - set up - generate components/header.jsx react component, rename files in app folder, generate about page." />
+    <MESSAGE value="nextlevel food - page content - add assets, header and navbar, as well as header.module.css" />
+    <MESSAGE value="nextlevel food - page content - replace img with Image nextjs component, move header related files into header folder, generate header-background.jsx and its css module to handle absolute position background." />
+    <MESSAGE value="nextlevel food - page content - populate the starting page content" />
+    <MESSAGE value="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - page content - generate images-slideshow.jsx and its css module to set up a timer interval that advances the image index every 3000 milliseconds (3 seconds). It loops back to the first image when reaching the end of the array." />
   </component>
 </project>
