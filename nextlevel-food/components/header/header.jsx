@@ -31,9 +31,6 @@ export default function Header() {
                     </ul>
                 </nav>
             </header>
-            <div className={classes.title}>
-                <h1>Welcome to my brand-new NextJS project!</h1>
-            </div>
         </>
 
 )
