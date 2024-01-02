@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - enhance existing code -">
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/error.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/not-found.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/not-found.jsx" afterDir="false" />
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx.">
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/image-picker.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/image-picker.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-content" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aOGkr7XDQHuyfcUS118SM65jGn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,11 +36,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "enhance-existing-code",
+    "git-widget-placeholder": "share-meal-page",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,6 +52,9 @@
         <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
         <entry key="com.haulmont.rcb.storybook" value="false" />
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -88,6 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704182362166</updated>
       <workItem from="1704182366146" duration="8296000" />
+      <workItem from="1704196884455" duration="94000" />
+      <workItem from="1704205072975" duration="1712000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -108,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nextlevel food - page content -" />
-    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - page content -" />
+    <MESSAGE value="nextlevel food - share meals -" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - share meals -" />
   </component>
 </project>
