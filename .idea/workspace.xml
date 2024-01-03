@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - enhance existing code -">
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/error.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/not-found.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/app/not-found.jsx" afterDir="false" />
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/share/error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/error.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-content" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aOGkr7XDQHuyfcUS118SM65jGn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,14 +33,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "enhance-existing-code",
+    "git-widget-placeholder": "share-meal-page",
+    "last_opened_file_path": "C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/app/meals/share",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -56,8 +55,16 @@
         <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
         <entry key="com.haulmont.rcb.storybook" value="false" />
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\app\meals\share" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
@@ -88,8 +95,54 @@
       <option name="presentableId" value="Default" />
       <updated>1704182362166</updated>
       <workItem from="1704182366146" duration="8296000" />
+      <workItem from="1704196884455" duration="94000" />
+      <workItem from="1704205072975" duration="4055000" />
+      <workItem from="1704220100972" duration="812000" />
+      <workItem from="1704222137879" duration="1212000" />
+      <workItem from="1704267614187" duration="6058000" />
+      <workItem from="1704290801920" duration="6711000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker.">
+      <option name="closed" value="true" />
+      <created>1704206996472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704206996472</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker, create actions.jsx and write in function to save meal into the database.">
+      <option name="closed" value="true" />
+      <created>1704273935717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704273935717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nextlevel food - share meal - redirect after submitting meal, create 2 new functions in lib/meals: one to save image in the images folder via filesystem, and second to save the image in S3 bucket.">
+      <option name="closed" value="true" />
+      <created>1704292419423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704292419423</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nextlevel food - share meal - create meals-form-submit.jsx to manage the form submission status with useFormStatus.">
+      <option name="closed" value="true" />
+      <created>1704294134909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704294134909</updated>
+    </task>
+    <task id="LOCAL-00006" summary="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page.">
+      <option name="closed" value="true" />
+      <created>1704295880439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704295880439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +161,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nextlevel food - page content -" />
-    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - page content -" />
+    <MESSAGE value="nextlevel food - share meals -" />
+    <MESSAGE value="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker." />
+    <MESSAGE value="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker, create actions.jsx and write in function to save meal into the database." />
+    <MESSAGE value="nextlevel food - share meal - redirect after submitting meal, create 2 new functions in lib/meals: one to save image in the images folder via filesystem, and second to save the image in S3 bucket." />
+    <MESSAGE value="nextlevel food - share meal - create meals-form-submit.jsx to manage the form submission status with useFormStatus." />
+    <MESSAGE value="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page." />
+    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page." />
   </component>
 </project>
