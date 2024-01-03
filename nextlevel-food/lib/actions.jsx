@@ -3,7 +3,7 @@
 import {saveMeal} from "@/lib/meals";
 import {redirect} from "next/navigation";
 
-export default async function shareMeal(formData) {
+export default async function shareMeal(prevState, formData) {
     const meal = {
         title: formData.get('title'),
         summary: formData.get('summary'),
@@ -14,7 +14,9 @@ export default async function shareMeal(formData) {
     }
 
     if (isInvalidText(meal)) {
-        return;
+        return {
+            message: 'Invalid input.'
+        };
     }
 
     await saveMeal(meal);
@@ -33,5 +35,7 @@ function isInvalidText(meal) {
 }
 
 function isEmailAndImageValid(meal) {
-    return !meal.email.includes('@') || meal.image.size === 0;
+    const isEmailInvalid = !meal.email || !meal.email.includes('@');
+    const isImageInvalid = !meal.image|| meal.image.size === 0 ;
+    return  isEmailInvalid || isImageInvalid;
 }
