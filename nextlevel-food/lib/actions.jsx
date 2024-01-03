@@ -13,6 +13,25 @@ export default async function shareMeal(formData) {
         creator_email: formData.get('email'),
     }
 
+    if (isInvalidText(meal)) {
+        return;
+    }
+
     await saveMeal(meal);
     redirect('/meals');
+}
+
+function isInvalidText(meal) {
+    for (const key in meal) {
+        if (meal.hasOwnProperty(key)) {
+            if (!meal[key] || meal[key].trim() === '' || isEmailAndImageValid(meal)) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function isEmailAndImageValid(meal) {
+    return !meal.email.includes('@') || meal.image.size === 0;
 }
