@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker, create actions.jsx and write in function to save meal into the database.">
-      <change afterPath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" afterDir="false" />
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - share meal - redirect after submitting meal, create 2 new functions in lib/meals: one to save image in the images folder via filesystem, and second to save the image in S3 bucket.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/share/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/meals.db" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/meals.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -47,6 +42,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -96,7 +92,8 @@
       <workItem from="1704205072975" duration="4055000" />
       <workItem from="1704220100972" duration="812000" />
       <workItem from="1704222137879" duration="1212000" />
-      <workItem from="1704267614187" duration="1483000" />
+      <workItem from="1704267614187" duration="6058000" />
+      <workItem from="1704290801920" duration="709000" />
     </task>
     <task id="LOCAL-00002" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker.">
       <option name="closed" value="true" />
@@ -106,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704206996472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker, create actions.jsx and write in function to save meal into the database.">
+      <option name="closed" value="true" />
+      <created>1704273935717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704273935717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
