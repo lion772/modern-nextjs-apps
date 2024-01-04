@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - caching -">
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - caching - trigger cache revalidation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/actions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nextlevel-food/meals.db" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/meals.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/burger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/curry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/dumplings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/macncheese.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/pizza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/schnitzel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/tomato-salad.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +114,10 @@
       <workItem from="1704222137879" duration="1212000" />
       <workItem from="1704267614187" duration="6058000" />
       <workItem from="1704290801920" duration="6711000" />
-      <workItem from="1704310584990" duration="3938000" />
+      <workItem from="1704310584990" duration="4621000" />
+      <workItem from="1704352128485" duration="1828000" />
+      <workItem from="1704354364375" duration="748000" />
+      <workItem from="1704356759275" duration="2999000" />
     </task>
     <task id="LOCAL-00002" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker.">
       <option name="closed" value="true" />
@@ -142,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704295880439</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nextlevel food - caching - trigger cache revalidation">
+      <option name="closed" value="true" />
+      <created>1704315637850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704315637850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +192,7 @@
     <MESSAGE value="nextlevel food - share meal - redirect after submitting meal, create 2 new functions in lib/meals: one to save image in the images folder via filesystem, and second to save the image in S3 bucket." />
     <MESSAGE value="nextlevel food - share meal - create meals-form-submit.jsx to manage the form submission status with useFormStatus." />
     <MESSAGE value="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page." />
-    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - share meal - add server-side input validation by creating two functions: isInvalidText and isEmailAndImageValid, create a share related error page." />
+    <MESSAGE value="nextlevel food - caching - trigger cache revalidation" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextlevel food - caching - trigger cache revalidation" />
   </component>
 </project>
