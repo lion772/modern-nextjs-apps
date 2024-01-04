@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="nextlevel food - caching - trigger cache revalidation">
+      <change afterPath="$PROJECT_DIR$/nextlevel-food/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/app/meals/[mealSlug]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/components/meals/meal-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/initdb.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/lib/meals.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/meals.db" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/meals.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextlevel-food/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/burger.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/curry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/dumplings.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/macncheese.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/pizza.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/schnitzel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextlevel-food/public/images/tomato-salad.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +16,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="caching-improvement" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -44,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;caching-improvement&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/app/meals/share&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "add-readme",
+    "last_opened_file_path": "C:/Users/willi/Documents/modern-nextjs-apps/nextlevel-food/app/meals/share",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
