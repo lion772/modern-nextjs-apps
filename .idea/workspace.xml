@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="snippets - install prisma, set up routing">
-      <change afterPath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/edit/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/app/snippets/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/db/actions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/db/snippets.tsx" afterDir="false" />
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands">
+      <change afterPath="$PROJECT_DIR$/snippets/app/not-found.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/db/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snippets/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/app/snippets/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/snippets/new/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/db/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/db/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/db/snippets.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/prisma/dev.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/prisma/dev.db-journal" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lion772&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2c0b6e5b-1fd6-493f-90ce-21b57a120f18" />
+        <option name="url" value="https://github.com/lion772/modern-nextjs-apps.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,7 +70,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;snippets-app-setup&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/modern-nextjs-apps/snippets/package.json&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/Documents/modern-nextjs-apps/snippets/app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -81,6 +96,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\Documents\modern-nextjs-apps\snippets\app" />
       <recent name="C:\Users\willi\Documents\modern-nextjs-apps\nextlevel-food\app\meals\share" />
     </key>
   </component>
@@ -140,7 +156,8 @@
       <workItem from="1704371882193" duration="10000000" />
       <workItem from="1704398954250" duration="1241000" />
       <workItem from="1704446069614" duration="4475000" />
-      <workItem from="1704466152607" duration="1460000" />
+      <workItem from="1704466152607" duration="10482000" />
+      <workItem from="1704482347871" duration="2590000" />
     </task>
     <task id="LOCAL-00002" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker.">
       <option name="closed" value="true" />
@@ -206,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704459336545</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands">
+      <option name="closed" value="true" />
+      <created>1704468173821</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704468173821</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +259,7 @@
     <MESSAGE value="nextlevel food - caching - trigger cache revalidation" />
     <MESSAGE value="nextlevel food - add README.md" />
     <MESSAGE value="snippets - create snippets app via npx create-next-app@latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="snippets - create snippets app via npx create-next-app@latest" />
+    <MESSAGE value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands" />
   </component>
 </project>
