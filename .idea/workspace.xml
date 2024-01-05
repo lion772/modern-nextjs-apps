@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands">
-      <change afterPath="$PROJECT_DIR$/snippets/app/not-found.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/db/index.tsx" afterDir="false" />
+    <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands, add not-found.jsx page, rename file, add style to snippet detail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snippets/app/snippets/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/snippets/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/db/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/db/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/db/snippets.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/snippets/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/prisma/dev.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/prisma/dev.db-journal" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +149,7 @@
       <workItem from="1704398954250" duration="1241000" />
       <workItem from="1704446069614" duration="4475000" />
       <workItem from="1704466152607" duration="10482000" />
-      <workItem from="1704482347871" duration="2590000" />
+      <workItem from="1704482347871" duration="3866000" />
     </task>
     <task id="LOCAL-00002" summary="nextlevel food - share meal - generate image-picker.jsx and its css module to handle image picker in share/page.jsx, add an image preview to ImagePicker.">
       <option name="closed" value="true" />
@@ -231,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704468173821</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands, add not-found.jsx page, rename file, add style to snippet detail">
+      <option name="closed" value="true" />
+      <created>1704491776965</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704491776965</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +260,7 @@
     <MESSAGE value="nextlevel food - add README.md" />
     <MESSAGE value="snippets - create snippets app via npx create-next-app@latest" />
     <MESSAGE value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands" />
+    <MESSAGE value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands, add not-found.jsx page, rename file, add style to snippet detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="snippets - install prisma, set up routing, run npx prisma init --datasource-provider sqlite and npx prisma migrate dev    commands, add not-found.jsx page, rename file, add style to snippet detail" />
   </component>
 </project>
