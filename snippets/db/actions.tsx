@@ -10,7 +10,6 @@ interface SnippetArgs {
 };
 
 export async function createSnippet(prevState: any, formData: FormData) {
-    console.log(formData)
 
     const snippet = {
         title: formData.get('title') as string,
@@ -30,7 +29,6 @@ export async function createSnippet(prevState: any, formData: FormData) {
         }
     })
 
-    console.log(newSnippet);
     redirect('/');
 }
 
