@@ -1,7 +1,5 @@
-import { useRouter } from 'next/router';
 import {getSnippet} from "@/db/actions";
 import {notFound} from "next/navigation";
-import Link from "next/link";
 
 interface SnippetDetailPageProps {
     params: {

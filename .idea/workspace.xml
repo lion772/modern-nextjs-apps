@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd1ab68-7e7f-403f-a0c6-fe0fd15360f1" name="Changes" comment="clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_01_2024_23_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_01_2024_23_22__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/db/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/db/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/prisma/dev.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/app/snippets/[snippetid]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "snippets-refinement",
     "last_opened_file_path": "C:/Users/willi/Documents/nextjs/modern-nextjs-apps/snippets/package.json",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,8 +115,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.snippets dev" />
       <item itemvalue="npm.nextlevel food dev" />
+      <item itemvalue="npm.snippets dev" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
