@@ -16,8 +16,13 @@ async function Pages() {
                 {snippets.map((snippet) => (
                     <tr key={snippet.id} className="hover:bg-gray-100 transition duration-75">
                         <td className="py-2 px-4 border-b">
-                            <Link href={`/snippets/${snippet.id}`}>
-                                <span className="text-blue-500">{snippet.title}</span>
+                            <Link
+                                href={`/snippets/${snippet.id}`}
+                                className="flex justify-between items-center p-2 rounded">
+                                    <span
+                                        className="text-blue-500 mx-auto">
+                                        {snippet.title}
+                                    </span>
                             </Link>
                         </td>
                     </tr>
